@@ -1,0 +1,9 @@
+message TimeConfig
+{
+	required int32 StageID = 1;
+	required float ClickCount = 2;
+	required float AddNum = 3;
+	required float MinusNum = 4;
+	required float dampTime = 5;
+	required string countColor = 6;
+}
