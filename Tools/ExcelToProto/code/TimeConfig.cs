@@ -43,15 +43,22 @@ namespace m
       get { return _MinusNum; }
       set { _MinusNum = value; }
     }
+    private float _TimeLong;
+    [global::ProtoBuf.ProtoMember(5, IsRequired = true, Name=@"TimeLong", DataFormat = global::ProtoBuf.DataFormat.FixedSize)]
+    public float TimeLong
+    {
+      get { return _TimeLong; }
+      set { _TimeLong = value; }
+    }
     private float _dampTime;
-    [global::ProtoBuf.ProtoMember(5, IsRequired = true, Name=@"dampTime", DataFormat = global::ProtoBuf.DataFormat.FixedSize)]
+    [global::ProtoBuf.ProtoMember(6, IsRequired = true, Name=@"dampTime", DataFormat = global::ProtoBuf.DataFormat.FixedSize)]
     public float dampTime
     {
       get { return _dampTime; }
       set { _dampTime = value; }
     }
     private string _countColor;
-    [global::ProtoBuf.ProtoMember(6, IsRequired = true, Name=@"countColor", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::ProtoBuf.ProtoMember(7, IsRequired = true, Name=@"countColor", DataFormat = global::ProtoBuf.DataFormat.Default)]
     public string countColor
     {
       get { return _countColor; }

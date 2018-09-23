@@ -4,6 +4,7 @@ message TimeConfig
 	required float ClickCount = 2;
 	required float AddNum = 3;
 	required float MinusNum = 4;
-	required float dampTime = 5;
-	required string countColor = 6;
+	required float TimeLong = 5;
+	required float dampTime = 6;
+	required string countColor = 7;
 }

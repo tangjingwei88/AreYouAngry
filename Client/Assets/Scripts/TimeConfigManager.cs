@@ -10,6 +10,7 @@ public class TimeConfigManager : ProtoBase {
         public int stageId;
         public float clickCount;
         public float addNum;
+        public float timeLong;
         public float minusNum;
         public float dampTime;
         public string countColor;
@@ -22,6 +23,7 @@ public class TimeConfigManager : ProtoBase {
             dampTime = s.dampTime;
             clickCount = s.ClickCount;
             countColor = s.countColor;
+            timeLong = s.TimeLong;
         }
 
         public TimeConfig()
