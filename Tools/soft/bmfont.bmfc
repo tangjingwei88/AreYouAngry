@@ -30,8 +30,8 @@ useFixedHeight=0
 forceZero=0
 
 # output file
-outWidth=256
-outHeight=256
+outWidth=1024
+outHeight=1024
 outBitDepth=32
 fontDescFormat=0
 fourChnlPacked=0
@@ -50,16 +50,18 @@ invB=0
 outlineThickness=0
 
 # selected chars
-chars=46
+
 
 # imported icon images
-icon="font-b/0.png",48,0,0,0
-icon="font-b/1.png",49,0,0,0
-icon="font-b/2.png",50,0,0,0
-icon="font-b/3.png",51,0,0,0
-icon="font-b/4.png",52,0,0,0
-icon="font-b/5.png",53,0,0,0
-icon="font-b/6.png",54,0,0,0
-icon="font-b/7.png",55,0,0,0
-icon="font-b/8.png",56,0,0,0
-icon="font-b/9.png",57,0,0,0
+icon="font-z/images/8.png",56,0,0,0
+icon="font-z/images/1.png",49,0,0,0
+icon="font-z/images/2.png",50,0,0,0
+icon="font-z/images/3.png",51,0,0,0
+icon="font-z/images/4.png",52,0,0,0
+icon="font-z/images/5.png",53,0,0,0
+icon="font-z/images/6.png",54,0,0,0
+icon="font-z/images/7.png",55,0,0,0
+icon="font-z/images/0.png",48,0,0,0
+icon="font-z/images/9.png",57,0,0,0
+icon="font-z/images/d.png",46,0,0,0
+icon="font-z/images/m.png",58,0,0,0
